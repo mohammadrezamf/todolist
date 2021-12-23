@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.col-md-5{
+  margin-top: 100px !important;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+
+}
+
+h1{
+  font-weight: bold !important;
+}
+
+input{
+  border: 2px solid black !important;
+  display: inline !important;
+  width: 70% !important;
+  margin-bottom: 20px !important;
+  margin-top: 10px !important;
+}
+
+
+
+i{
+  color: rgb(216, 52, 52);
+  margin-top: 5px;
+}
+p{
+  margin: 10px;
+}
+
+.addTaskBox{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+
+}
+
+button{
+  margin-left: 20px !important;
+  /* margin-bottom: 6px !important; */
+}
+
+.buttonBox{
+  display: flex;
+}
+
+.task{
+  background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+  padding: 10px;
+  border-radius: 5px;
+}
